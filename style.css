@@ -1,0 +1,39 @@
+*
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.remix
+{
+    max-width: 50em;
+    margin: auto;
+    background-color: #ccc;
+
+}
+.container
+{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.left,.right
+{
+    flex: 0 0 20%;
+    margin: 2em 1em;
+    border: thin solid #ccc;
+    width: 10em;
+    height: 10em;
+    background-color: green;
+}
+h1{
+    text-align: center;
+}
+input
+{
+    border: thin solid #ccc;
+    padding: 0.5em 0.2em;
+    margin-top: 4em;
+}
